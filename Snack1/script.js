@@ -7,6 +7,6 @@ const num2 = Number (prompt('Scrivi il secondo numero'));
 // Verifica il valore maggiore tra i due e stampalo su console
 if (num1 > num2) {
     console.log(num1).value;
-} else {
+} else if (num2 > num1) {
     console.log(num2).value;
 }
